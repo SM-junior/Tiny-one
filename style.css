@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tiny-header{
+    background-color: #fcdb00;
+    padding: 60px 0 50px;
+}
+.tiny-header-top span{
+    font-size: 22px;
+}
+.tiny-social-icon ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.tiny-social-icon ul li a{
+    color: #010101;
+    padding: 0 11px;
+    font-size: 22px;
+}
+/* header-top end */
+
+.tiny-slide{
+   text-align: center; 
+   padding: 200px 0 120px;
+}
+.tiny-slide h2{
+    font-size: 48px;
+    color: #010101;
+}
+.tiny-slide p{
+    font-size: 20px;
+    color: #010101;
+}
+.tiny-slide ul{
+    display: flex;
+    justify-content: center;
+}
+.tiny-slide ul li{
+    border: 2px solid #010101;
+    color: #010101;
+    font-size: 35px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tiny-slide a{
+    text-transform: uppercase;
+    border: 2px solid #000;
+    color: #2d2d2d;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: .5s;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.tiny-slide a:hover{
+    background-color: #010101;
+    color: white;
+}
+.tiny-slide a i{
+    margin-left: 23px;
+}
+.btn button{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+}
+
+/* header-bottom-end */
+
+.tiny-menu ul{
+    display: flex;
+    justify-content: center;
+}
+.tiny-menu ul li a{
+    color: #010101;
+    padding: 0 10px;
+    font-size: 20px;
+}
+.follow span{
+    display: none;
+}
+.tiny-header-top{
+    text-align: center;
+}
+
+.tiny-footer{
+    background-color: #010101;
+    
+}
+.tiny-footer-top h2{
+    font-size: 32px;
+    text-align: center;
+    color: #fcdb00;
+}
+.tiny-footer-top p{
+    padding-top: 22px;
+    font-size: 20px;
+    color: #898989;
+    text-align: center;
+}
+.search-bar{
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 114px;
+}
+#search{
+    padding-left: 24px;
+    width: 580px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+}
+#submit{
+    background-color: #fcdb00;
+    font-weight: bold;
+    width: 161px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+}
+.tiny-footer{
+    padding: 95px 0 211px;
+}
+.tiny-footer-bottom p{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#for-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
